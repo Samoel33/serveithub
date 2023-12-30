@@ -8,6 +8,7 @@ import emailjs from '@emailjs/browser';
 type emailUs={
   name:String,
   email:String,
+  subject:String,
   message:String
 }
 
