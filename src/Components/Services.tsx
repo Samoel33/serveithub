@@ -67,7 +67,7 @@ export default function ServicesComponent() {
                 Power Systems Study (Settings Calculations and Grading).
               </li>
               <li className="text-sm">
-                Protection IED'S Engineering (Configurations).{" "}
+                Protection IED&apos;S Engineering (Configurations).
               </li>
               <li className="text-sm">
                 Substation Primary and Secondary Plant Commissioning.
@@ -125,7 +125,7 @@ export default function ServicesComponent() {
               </li>
               <li className="text-sm">
                 Protection Relays, Metering Instruments and Battery Tripping
-                Unit{" "}
+                Unit
               </li>
               <li className="text-sm">Cable and Electrical Accessories.</li>
             </ol>
