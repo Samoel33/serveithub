@@ -4,7 +4,7 @@ import  {useForm}  from 'react-hook-form';
 import {toast,ToastContainer} from "react-toastify";
 import 'react-toastify/ReactToastify.css';
 import emailjs from '@emailjs/browser';
-import {sendEmailjs} from "/src/server-actions/sendMail.ts"
+import sendEmailjs from "/src/server-actions/sendMail.ts"
 type emailUs={
   name:String,
   email:String,
