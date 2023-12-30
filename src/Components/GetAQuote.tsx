@@ -4,7 +4,7 @@ import  {useForm}  from 'react-hook-form';
 import {toast,ToastContainer} from "react-toastify";
 import 'react-toastify/ReactToastify.css';
 import emailjs from '@emailjs/browser';
-import sendEmailjs from "/src/server-actions/sendMail.ts"
+
 type emailUs={
   name:String,
   email:String,
@@ -36,8 +36,15 @@ const notifyErr=()=>toast.error("There was an error sending your email, Please c
   const  sendEmail = async(data:emailUs)=>{
 
     reset();
-   const res = await sendEmailjs({form});
-    await res.status===200 ? notify() : notifyErr()
+    emailjs.sendForm(
+  "service_tg2x89a",`${process.env.NEXT_PUBLIC_TEMPLATE_ID}`, form.current, `${process.env.NEXT_PUBLIC_PUBLIC_KEY}`
+  ).then((response)=>{
+      notify()
+      return response
+    },(err)=>{
+     notifyErr()
+    return err
+    });
   }
 export default function GetAquoteComponent(){
     
