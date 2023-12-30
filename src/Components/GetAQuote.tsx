@@ -42,7 +42,7 @@ export default function GetAquoteComponent(){
   const  sendEmail = async(data:emailUs)=>{
     reset();
     emailjs.sendForm(
-  "service_tg2x89a",`${process.env.NEXT_PUBLIC_TEMPLATE_ID}`, form.current, `${process.env.NEXT_PUBLIC_PUBLIC_KEY}`
+  "service_tg2x89a",`${process.env.NEXT_PUBLIC_TEMPLATE_ID}`, form.current<any>, `${process.env.NEXT_PUBLIC_PUBLIC_KEY}`
   ).then((response)=>{
       notify()
       return response
