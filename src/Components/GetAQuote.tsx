@@ -33,8 +33,13 @@ const notifyErr=()=>toast.error("There was an error sending your email, Please c
 })
 
 
+  
+export default function GetAquoteComponent(){
+    
+  const {register,handleSubmit,reset,formState} = useForm<emailUs>()
+  const {errors} =formState
+     const form = useRef();
   const  sendEmail = async(data:emailUs)=>{
-
     reset();
     emailjs.sendForm(
   "service_tg2x89a",`${process.env.NEXT_PUBLIC_TEMPLATE_ID}`, form.current, `${process.env.NEXT_PUBLIC_PUBLIC_KEY}`
@@ -46,11 +51,6 @@ const notifyErr=()=>toast.error("There was an error sending your email, Please c
     return err
     });
   }
-export default function GetAquoteComponent(){
-    
-  const {register,handleSubmit,reset,formState} = useForm<emailUs>()
-  const {errors} =formState
-     const form = useRef();
     return (
         <div className="lg:container w-full bg-gray-100 flex justify-center items-center lg:p-5 p-2">
         <form
