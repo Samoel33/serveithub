@@ -38,7 +38,7 @@ export default function GetAquoteComponent(){
     
   const {register,handleSubmit,reset,formState} = useForm<emailUs>()
   const {errors} =formState
-     const form = useRef<HTMLFormElement|undefined|String>();
+     const form = useRef<HTMLFormElement>(null!);
   const  sendEmail = async(data:emailUs)=>{
     reset();
     emailjs.sendForm(
