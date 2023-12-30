@@ -37,7 +37,7 @@ export default function ServicesComponent() {
                 MV & LV Power Systems Commissioning & Testing
               </li>
               <li className="text-sm">
-                Retrofits Design & Commissioning (Circuit Breakers, Protection
+                Retrofits Design and Commissioning (Circuit Breakers, Protection
                 Schemes)
               </li>
               <li className="text-sm">
@@ -46,11 +46,11 @@ export default function ServicesComponent() {
               </li>
               <li className="text-sm">Substation erection</li>
               <li className="text-sm">
-                Generator Panel Installation & Electrical Motor installation
+                Generator Panel Installation and Electrical Motor installation
               </li>
               <li className="text-sm">
             
-                Fiber Optic Cable Installation & Splicing
+                Fiber Optic Cable Installation and Splicing
               </li>
               <li className="text-sm">Power Cables joining and termination.</li>
               <li className="text-sm">
@@ -67,7 +67,7 @@ export default function ServicesComponent() {
                 Power Systems Study (Settings Calculations and Grading).
               </li>
               <li className="text-sm">
-                Protection IEDS Engineering (Configurations).
+                Protection IEDS Engineering Configurations.
               </li>
               <li className="text-sm">
                 Substation Primary and Secondary Plant Commissioning.
