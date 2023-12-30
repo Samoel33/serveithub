@@ -49,7 +49,7 @@ export default function ServicesComponent() {
                 Generator Panel Installation & Electrical Motor installation
               </li>
               <li className="text-sm">
-                {" "}
+            
                 Fiber Optic Cable Installation & Splicing
               </li>
               <li className="text-sm">Power Cables joining and termination.</li>
@@ -67,7 +67,7 @@ export default function ServicesComponent() {
                 Power Systems Study (Settings Calculations and Grading).
               </li>
               <li className="text-sm">
-                Protection IED&apos;S Engineering (Configurations).
+                Protection IEDS Engineering (Configurations).
               </li>
               <li className="text-sm">
                 Substation Primary and Secondary Plant Commissioning.
