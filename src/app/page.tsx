@@ -1,8 +1,5 @@
 
 import Link from 'next/link';
-import { MdElectricalServices } from "react-icons/md";
-
-import CarouselTeam from '@/Components/Carousel';
 import ServicesComponent from '@/Components/Services';
 import AboutComponent from '@/Components/About';
 

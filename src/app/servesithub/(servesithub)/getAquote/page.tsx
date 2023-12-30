@@ -1,5 +1,5 @@
 import {Metadata} from 'next'
-import GetAquoteComponent from "src/Components/GetAQuote.tsx";
+import GetAquoteComponent from "../../../../Components/GetAQuote";
 export const metadata: Metadata = {
   title:"Request Quote Form",
   description: 'Request quotation form',

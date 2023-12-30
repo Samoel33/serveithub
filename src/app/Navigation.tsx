@@ -1,24 +1,22 @@
 "use client";
 
 import React,{useState} from "react";
-import Image from "next/image";
 import Link from "next/link";
 import {
   FaAlignRight,
   FaTimes,
 } from "react-icons/fa";
 import {
-  FaWrench,
+ 
   FaUser,
   FaMessage,
 } from "react-icons/fa6";
 
-import { redirect, usePathname, useRouter } from "next/navigation";
+import { usePathname } from "next/navigation";
 import RequestQuoteBTN from "@/Components/RequestQuoteBTN";
 
 export default function Navigation() {
   const [isClicked,setClicked]=useState(false)
-  const pathName = usePathname();
   const links = [
    
     { id: 2, link: "services" },
