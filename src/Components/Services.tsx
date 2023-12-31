@@ -21,7 +21,7 @@ export default function ServicesComponent() {
             <h3 className="text-2xl text-blue-700 mb-3 font-bold">
               Elcectircal Contracting Services
             </h3>
-            <ol className="list-disc px-2">
+            <ol className="list-disc p-2">
               <li className="text-sm ">Metering Installations </li>
               <li className="text-sm">Substation Construction </li>
               <li className="text-sm">
@@ -62,7 +62,7 @@ export default function ServicesComponent() {
             <h3 className="text-2xl text-blue-700 mb-3 font-bold">
               Power System Services
             </h3>
-            <ol className="list-disc px-2">
+            <ol className="list-disc p-2">
               <li className="text-sm ">
                 Power Systems Study (Settings Calculations and Grading).
               </li>
@@ -83,7 +83,7 @@ export default function ServicesComponent() {
             <h3 className="text-2xl text-blue-700 mb-3 font-bold">
               Construction
             </h3>
-            <ol className="list-disc px-2">
+            <ol className="list-disc p-2">
               <li className="text-sm ">Bus Bar Installation</li>
               <li className="text-sm">MV Switchgear Installation</li>
               <li className="text-sm">LV MCC Installation</li>
@@ -101,7 +101,7 @@ export default function ServicesComponent() {
             <h3 className="text-2xl text-blue-700 mb-3 font-bold">
               Maintenacne
             </h3>
-            <ol className="list-disc px-2">
+            <ol className="list-disc p-2">
               <li className="text-sm ">Trnasformer Maintenance</li>
               <li className="text-sm">Generator Maintenance</li>
               <li className="text-sm">
@@ -119,7 +119,7 @@ export default function ServicesComponent() {
             <h3 className="text-2xl text-blue-700 mb-3 font-bold">
               MV, LV, AND HV Switchgear Supply
             </h3>
-            <ol className="list-disc px-2">
+            <ol className="list-disc p-2">
               <li className="text-sm ">
                 Panels, Circuit Breakers, Current Transformers and Bus Bars
               </li>
