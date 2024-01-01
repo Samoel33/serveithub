@@ -64,7 +64,7 @@ export default function GetAquoteComponent(){
           <span>All field with <span className="text-red-500 text-sm">*</span> are required before submitting the form</span> 
           <div className="w-full flex flex-col gap-2 pl-3">
             <label htmlFor="name" className="pl-3 text-blue-700 font-bold">
-              Name <span className="text-red-500 text-sm">*</span> 
+              Name <span className="text-red-500 text-sm error">*</span> 
             </label>
             <input
               type="text"
@@ -79,13 +79,13 @@ export default function GetAquoteComponent(){
               className="w-3/4 h-10 border rounded border-blue-700 focus:outline-yellow-200 pl-3 bg-gray-100 "
               placeholder="Enter Your Name"
             />
-            <span className="text-red-500 text-sm ">
+            <span className="text-red-500 text-sm error">
               {errors.name?.message}
             </span>
           </div>
           <div className="w-full flex flex-col gap-2 pl-3">
             <label htmlFor="email" className="pl-3 text-blue-700 font-bold">
-              Email Address <span className="text-red-500 text-sm">*</span> 
+              Email Address <span className="text-red-500 text-sm error">*</span> 
             </label>
             <input
               type="email"
@@ -103,13 +103,13 @@ export default function GetAquoteComponent(){
               className="w-3/4 h-10 border rounded border-blue-700 focus:outline-yellow-200 pl-3 "
               placeholder="Enter Your Email Address"
             />
-            <span className="text-red-500 text-sm ">
+            <span className="text-red-500 text-sm error">
               {errors.email?.message}
             </span>
           </div>
           <div className="w-full flex flex-col gap-2 pl-3">
             <label htmlFor="subject" className="pl-3 text-blue-700 font-bold">
-              Subject <span className="text-red-500 text-sm">*</span> 
+              Subject <span className="text-red-500 text-sm error">*</span> 
             </label>
             <input
               type="text"
@@ -124,13 +124,13 @@ export default function GetAquoteComponent(){
               className="w-3/4 h-10 border rounded border-blue-700 focus:outline-yellow-200 pl-3 bg-gray-100 "
               placeholder="Write Subject"
             />
-            <span className="text-red-500 text-sm ">
+            <span className="text-red-500 text-sm error ">
               {errors.subject?.message}
             </span>
           </div>
           <div className="w-full flex flex-col gap-2 pl-3">
             <label htmlFor="message" className="pl-3 text-blue-700 font-bold ">
-              Message <span className="text-red-500 text-sm">*</span> 
+              Message <span className="text-red-500 text-sm error">*</span> 
             </label>
             <textarea
             id="message"
@@ -145,7 +145,7 @@ export default function GetAquoteComponent(){
               className="w-3/4 h-40 pl-3 border rounded border-blue-700 focus:outline-yellow-200"
               placeholder="Write your Message"
             />
-            <span className="text-red-500 text-sm ">
+            <span className="text-red-500 text-sm error">
               {errors.message?.message}
             </span>
           </div>

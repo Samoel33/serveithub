@@ -22,10 +22,10 @@ i===0 ? i===team.length -1: i--
 export default function CarouselTeam() {
   return (
    <><h3 className='lg:text-6xl text-4xl text-blue-700 text-center font-bold mb-5'>SERVES IT HUB (PTY) LTD TEAM</h3>
-   <div className=' grid lg:grid-cols-4 gap-4 md:grid-cols-2 grid-cols-1'>
+   <div className=' grid lg:grid-cols-4 gap-4 md:grid-cols-2 grid-cols-1 m-2'>
     {team.map((user) =>(
-    <div className=' bg-gray-100 flex relative flex-col justify-center items-center shadow-lg gap-2 p-2 rounded-lg' key={user.id}>
-        <span className='text-center flex justify-center items-center text-4xl text-blue-700 h-16 absolute top-0 bg-yellow-500 z-2 rounded-full w-16 '><FaUser /></span>
+    <div className=' bg-gray-100 flex relative flex-col justify-center items-center shadow-lg gap-2 p-2 rounded-lg ' key={user.id}>
+        <div className='text-center flex justify-center items-center text-4xl text-blue-700 h-16 absolute top-0 bg-yellow-500 z-2 rounded-full w-16 '><FaUser /></span>
         <div className='w-full p-5 bg-blue-200 mt-8'>
         <span>Name:<p className='text-2xl'>{user.name}</p></span>
         <span >Occupation:<p className='text-2xl text-blue-700 opacity-50'>{user.occupation}</p> </span>
