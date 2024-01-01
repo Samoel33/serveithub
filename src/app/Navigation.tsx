@@ -42,14 +42,14 @@ export default function Navigation() {
         <ul className="lg:flex sm:hidden md:hidden xs:hidden w-auto navigation">
           <li
             key="home"
-            className="px-4 cursor-pointer capitalize py-6  w-40 text-white hover:text-yellow-300 hover:shadow-md hover:rounde hover:text-2xl"
+            className="px-4 flex justify-center items-center gap-2 cursor-pointer capitalize py-6  w-40 text-white hover:text-yellow-300 hover:shadow-md hover:rounde hover:text-2xl"
           >
-            <Link href={`/`} onClick={() => setClicked(false)} className="w-full flex justify-center items-center"><MdOutlineHome className="text-3xl text-white"/> Home</Link>
+            <Link href={`/`} onClick={() => setClicked(false)} className="w-full "><MdOutlineHome className="text-3xl text-white"/> Home</Link>
           </li>
           {links.map(({ id, link }) => (
             <li
               key={id}
-              className="px-4 cursor-pointer capitalize py-6  w-40 text-white hover:text-yellow-300 hover:shadow-md hover:rounde hover:text-2xl"
+              className="px-4 flex justify-center items-center gap-2 cursor-pointer capitalize py-6  w-40 text-white hover:text-yellow-300 hover:shadow-md hover:rounde hover:text-2xl"
             >
               <Link href={`/servesithub/${link}`} className="text-md">
                 {link}
