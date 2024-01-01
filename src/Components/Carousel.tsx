@@ -25,7 +25,7 @@ export default function CarouselTeam() {
    <h3 className='lg:text-6xl text-4xl text-blue-700 text-center font-bold mb-5'>SERVES IT HUB (PTY) LTD TEAM</h3>
    <div className=' grid lg:grid-cols-4 gap-4 md:grid-cols-2 grid-cols-1 m-2'>
     {team.map((user) =>(
-    <div className=' bg-gray-100 flex relative flex-col justify-center items-center shadow-lg gap-2 p-2 rounded-lg ' key={user.id}>
+    <div className=' bg-gray-100 flex relative flex-col justify-center items-center shadow-lg gap-2  rounded-lg ' key={user.id}>
         <div className='card-header '><FaUser /></div>
         <div className='w-full p-5 bg-blue-200 mt-8 card-footer'>
         <span>Name:<p className='text-2xl'>{user.name}</p></span>

@@ -20,6 +20,9 @@
 }
 .card-footer{
     background-color:#0ea5e9;
+    border-bottom-right-radius:1rem;
+    border-bottom-left-radius:1rem;
+    width:100%;
 }
 .card-header{
     height:5rem;
