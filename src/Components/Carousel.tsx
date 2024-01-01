@@ -29,7 +29,6 @@ export default function CarouselTeam() {
         <div className='w-full p-5 bg-blue-200 mt-8'>
         <span>Name:<p className='text-2xl'>{user.name}</p></span>
         <span >Occupation:<p className='text-2xl text-blue-700 opacity-50'>{user.occupation}</p> </span>
-
         </div>
     </div>
     ))

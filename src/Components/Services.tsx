@@ -9,7 +9,7 @@ export default function ServicesComponent() {
       id="services"
       className="bg-gradient-to-tl to-gray-100  from-blue-700 to-20%  lg:ml-10 lg:mr-10 shadow-2xl"
     >
-      <div className=" w-full h-full">
+      <div className=" w-full h-full mx-2">
         <div className="flex items-center justify-center gap-2 my-4 z-2 ">
           <MdElectricalServices className="text-yellow-400 text-4xl " />
           <h1 className="text-blue-700 text-4xl font-bold lg:text-6xl  ">

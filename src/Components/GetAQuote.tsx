@@ -46,10 +46,9 @@ export default function GetAquoteComponent(){
   "service_tg2x89a",`${process.env.NEXT_PUBLIC_TEMPLATE_ID}`, form.current, `${process.env.NEXT_PUBLIC_PUBLIC_KEY}`
   ).then((response)=>{
       notify()
-      return response
+      
     },(err)=>{
      notifyErr()
-    return err
     });
   }
     return (
