@@ -26,8 +26,8 @@ export default function CarouselTeam() {
    <div className=' grid lg:grid-cols-4 gap-4 md:grid-cols-2 grid-cols-1 m-2'>
     {team.map((user) =>(
     <div className=' bg-gray-100 flex relative flex-col justify-center items-center shadow-lg gap-2 p-2 rounded-lg ' key={user.id}>
-        <div className='text-center flex justify-center items-center text-4xl text-blue-700 h-16 absolute top-0 bg-yellow-500 z-2 rounded-full w-16 '><FaUser /></div>
-        <div className='w-full p-5 bg-blue-200 mt-8'>
+        <div className='card-header '><FaUser /></div>
+        <div className='w-full p-5 bg-blue-200 mt-8 card-footer'>
         <span>Name:<p className='text-2xl'>{user.name}</p></span>
         <span >Occupation:<p className='text-2xl text-blue-700 opacity-50'>{user.occupation}</p> </span>
         </div>

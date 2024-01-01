@@ -17,5 +17,15 @@
 .error{
     color:red;
     font-size:1.2rem;
-
+}
+.card-footer{
+    background-color:#0ea5e9;
+}
+.card-header{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    border-radius:50%;
+    background-color:#fef08a;
+    color:#1d4ed8;
 }
