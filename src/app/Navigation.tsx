@@ -44,7 +44,7 @@ export default function Navigation() {
             key="home"
             className="px-4 cursor-pointer capitalize py-6  w-40 text-white hover:text-yellow-300 hover:shadow-md hover:rounde hover:text-2xl"
           >
-            <Link href={`/`} onClick={() => setClicked(false)}><MdOutlineHome className="text-3xl text-white"/> Home</Link>
+            <Link href={`/`} onClick={() => setClicked(false)} className="w-full"><MdOutlineHome className="text-3xl text-white"/> Home</Link>
           </li>
           {links.map(({ id, link }) => (
             <li
