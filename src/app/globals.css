@@ -22,8 +22,9 @@
     background-color:#0ea5e9;
 }
 .card-header{
-    height:10rem;
-    width:10rem;
+    height:5rem;
+    width:5rem;
+    font-size:2rem;
     display:flex;
     justify-content:center;
     align-items:center;
