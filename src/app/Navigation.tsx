@@ -11,7 +11,7 @@ import {
   FaUser,
   FaMessage,
 } from "react-icons/fa6";
-
+import { MdOutlineHome,MdElectricalServices } from "react-icons/md";
 import { usePathname } from "next/navigation";
 import RequestQuoteBTN from "@/Components/RequestQuoteBTN";
 
@@ -44,7 +44,7 @@ export default function Navigation() {
             key="home"
             className="px-4 cursor-pointer capitalize py-6  w-40 text-white hover:text-yellow-300 hover:shadow-md hover:rounde hover:text-2xl"
           >
-            <Link href={`/`}>Home</Link>
+            <Link href={`/`} onClick={() => setClicked(false)}><MdOutlineHome className="text-3xl text-white"/> Home</Link>
           </li>
           {links.map(({ id, link }) => (
             <li
@@ -91,7 +91,7 @@ export default function Navigation() {
             key={'Home'}
             className="px-4 cursor-pointer capitalize py-6  w-full  text-center font-bold  text-blue-700 hover:text-white hover:bg-blue-700 hover:shadow-2xl hover:rounde "
           >
-            <Link href={`/`}>Home</Link>
+            <Link href={`/`} onClick={() => setClicked(false)}><MdOutlineHome className="text-3xl text-white"/> Home</Link>
           </li>
           {links.map(({ id, link }) => (
             <li
