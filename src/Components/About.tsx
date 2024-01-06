@@ -16,7 +16,7 @@ export default function AboutComponent() {
       <div className="flex flex-col gap-5 justify-center items-center w-full">
         <div className="flex flex-col gap-2 p-2">
           <h3 className="font-bold text-blue-700 text-2xl p-3 lg:text-4xl">
-            Compnay Background
+            Componay Background
           </h3>
           <p className="leading-normal max-w-prose p-3 lg:max-w-lg-s md:max-w-md-s">
             SERVES IT HUB (PTY) LTD is a 100% black owned business with
@@ -54,7 +54,7 @@ export default function AboutComponent() {
       </div>
     </section>
        <section className='bg-gray-100  lg:ml-10 lg:mr-10 shadow-2xl flex flex-col justify-center items-center mb-5'>
-        <CarouselTeam/>
+        
       </section>
     <GetAquoteComponent/>
     </>
