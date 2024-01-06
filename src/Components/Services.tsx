@@ -135,7 +135,7 @@ export default function ServicesComponent() {
       <p className="text-center text-sm font-bold mt-10 leading-normal  mr-2 mb-2 ">
         Know your Spec and what you are looking for? Just write us a mail, will give you a quote
       </p>
-      <span className="text-center flex justify-center items-center h-10">
+      <span className="text-center flex justify-center items-center h-10 mb-2">
        <RequestQuoteBTN/>
       </span>
     </section>
