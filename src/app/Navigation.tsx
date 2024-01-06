@@ -62,7 +62,7 @@ export default function Navigation() {
             className="btn-primary bg-yellow-500 w-44 text-blue-600 text-center  justify-center items-center hidden"
             aria-disabled
           >
-            <FaUser className="mr-2 text-3xl text-white" />
+            <FaUser className="mr-2 text-3xl text-white hidden" />
             Login
           </Link>
           <span className="h-full flex justify-center items-center">
