@@ -13,7 +13,7 @@ export default function ServicesComponent() {
         <div className="flex items-center justify-center gap-2 my-4 z-2 ">
           <MdElectricalServices className="text-yellow-400 text-4xl " />
           <h1 className="text-blue-700 text-4xl font-bold lg:text-6xl  ">
-            Serves It Hub Main Services
+            SERVES IT HUB, Main Services
           </h1>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 p-8 z-2">
