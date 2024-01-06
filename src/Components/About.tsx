@@ -16,7 +16,7 @@ export default function AboutComponent() {
       <div className="flex flex-col gap-5 justify-center items-center w-full">
         <div className="flex flex-col gap-2 p-2">
           <h3 className="font-bold text-blue-700 text-2xl p-3 lg:text-4xl">
-            Componay Background
+            Company Background
           </h3>
           <p className="leading-normal max-w-prose p-3 lg:max-w-lg-s md:max-w-md-s">
             SERVES IT HUB (PTY) LTD is a 100% black owned business with
@@ -27,7 +27,7 @@ export default function AboutComponent() {
         </div>
         <div className="flex flex-col gap-2 p-2">
           <h3 className="font-bold text-blue-700 text-2xl p-3  lg:text-4xl">
-            Compnay Vission
+            Company Vission
           </h3>
           <p className="leading-normal max-w-prose p-3 lg:max-w-lg-s md:max-w-md-s">
             Serves It Hub (PTY) LTD has set its sight in becoming the best
@@ -39,7 +39,7 @@ export default function AboutComponent() {
         </div>
         <div className="flex flex-col gap-2 p-2">
           <h3 className="font-bold text-blue-700 text-2xl p-3 lg:text-4xl">
-            Compnay Mission
+            Company Mission
           </h3>
           <p className="leading-normal max-w-prose p-3 lg:max-w-lg-s md:max-w-md-s">
             In aspiring to fulfil its vision, Serves It Hub (PTY) LTD strives to
