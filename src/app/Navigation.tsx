@@ -108,7 +108,7 @@ export default function Navigation() {
           ))}
           <Link
             href="/servesithub/auth/login"
-            className="btn-primary bg-yellow-500 w-44 text-blue-600 text-center flex justify-center gap-5 items-center h-10"
+            className="btn-primary bg-yellow-500 w-44 text-blue-600 text-center flex justify-center gap-5 items-center h-10 hidden"
             onClick={() => setClicked(false)}
           >
             <FaUser className="mr-2 text-3xl text-white" /> Login
